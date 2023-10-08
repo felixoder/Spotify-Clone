@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="nav" style="position: sticky; top: 0;">
+        <li>
+            <div class="brand"></div>
+        </li>
+        <li>Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+    </div>
+
+    <div class="container">
+
+        <div class="songlist">
+            <h1>Best Hits</h1>
+            <div class="div">
+                <div class="songitem">
+                    <img src="cover1.jpg" class="image" alt="1">
+                    <span>Sanso ki zaroorat hey zeyse ~ Kumar shanu</span>
+                    <span class="songlistplay"><span class="times">4:23 <i id="0"
+                                class=" fa-regular songplay fa-circle-play"></i></span>
+
+                    </span>
+                </div>
+                <div class="songitem">
+                    <img src="cover2.jpg" class="image" alt="2">
+                    <span>Ashiwquee ~ Arijit Sing</span>
+                    <span class="songlistplay"><span class="times">4:23 <i id="1"
+                                class=" fa-regular songplay  fa-circle-play"></i></span>
+
+                    </span>
+                </div>
+                <div class="songitem">
+                    <img src="cover3.jpg" class="image" alt="3">
+                    <span class="songname">Ham Tere Bin Aab Rehe Nehi Sakte~ Arijit Sing</span>
+                    <span class="songlistplay"><span class="times">4:23 <i id="2"
+                                class=" fa-regular songplay  fa-circle-play"></i></span>
+
+                    </span>
+                </div>
+                <div class="songitem">
+                    <img src="cover4.jpg" class="image" alt="4">
+                    <span>Asaan Nehi Yahan ~ Arijit Sing</span>
+                    <span class="songlistplay"><span class="times">4:23 <i id="3"
+                                class=" fa-regular songplay  fa-circle-play"></i></span>
+
+                    </span>
+                </div>
+                <div class="songitem">
+                    <img src="cover5.jpg" class="image" alt="5">
+                    <span>Bas Tera Saath Ho ~ Monali Thakur</span>
+                    <span class="songlistplay"><span class="times">4:23 <i id="4"
+                                class=" fa-regular songplay fa-circle-play"></i></span>
+
+                    </span>
+                </div>
+                <div class="songitem">
+                    <img src="cover6.jpg" class="image" alt="6">
+                    <span>Aapne To Dil Ka Pataa Dain ~ Arijit Sing</span>
+                    <span class="songlistplay"><span class="times">4:23 <i id="5"
+                                class=" fa-regular songplay fa-circle-play"></i></span>
+
+                    </span>
+                </div>
+                <div class="songitem">
+                    <img src="cover7.jpg" class="image" alt="7">
+                    <span>Dheere Dheere Se Mera Zindegi Me Aana ~ Kishor Kumar</span>
+                    <span class="songlistplay"><span class="times">4:23 <i id="6"
+                                class=" fa-regular songplay fa-circle-play"></i></span>
+
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" value=0 max="100">
+        <div class="icons">
+
+            <i class="fa-solid fa-backward" id="previous"></i>
+            <i class="fa-regular fa-circle-play" id="masterplay"></i>
+            <i class="fa-solid fa-forward" id="next"></i>
+
+        </div>
+        <div class="songinfo">
+            <img src="Nt6v.gif" id="gif" width="42px">
+            <div class="div"><span id="mastersongname">song 1</span></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

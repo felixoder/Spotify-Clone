@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Slab:wght@200&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav li{
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    color: white;
+    padding: 10px;
+}
+.brand{
+    background-image: url(logo.png);
+    height: 44px;
+    width: 44px;
+    background-size: cover;
+
+}
+.nav{
+    height: 65px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    font-weight: 700;
+}
+.container{
+    min-height: 75vh;
+    width: 70%;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    border-radius: 25px;
+    border-top: 20px solid  antiquewhite;
+    border-bottom: 20px solid  antiquewhite;
+    background-image: url("frank-septillion-Qrspubmx6kE-unsplash.jpg");
+    background-size: cover;
+    
+
+    margin: auto;
+    padding: 10px;
+
+}
+.bottom{
+   position: sticky;
+   height: 120px;
+   background-color: black;
+   bottom: 0;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+    
+}
+.icons i{
+    cursor: pointer;
+}
+.icons{
+    color: white;
+    font-size: 30px;
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    color: black;
+    margin: 12px 0;
+    font-weight: 900;
+    border-radius: 43px;
+
+}
+.songitem img{
+    width: 50px;
+    border-radius: 43px;
+    border: 0.5px solid white;
+    border-radius: 50%;
+    height: 50px;
+   
+}
+.times{
+    padding: 10px;
+}
+.times i{
+    cursor: pointer;
+}
+.songinfo img{
+    width: 100px;
+    height: 40px;
+    
+    transition: ease-in;
+   
+}
+.songinfo{
+    color: white;
+    position: absolute;
+    left: 0;
+
+    
+    
+    
+}
+#gif{
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
